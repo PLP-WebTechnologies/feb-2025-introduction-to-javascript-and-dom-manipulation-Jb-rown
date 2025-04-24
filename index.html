@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SneakerHub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>SneakerHub</h1>
+    <p id="tagline">Your ultimate sneaker plug!</p>
+  </header>
+
+  <main>
+    <section id="featured">
+      <h2 id="shoeName">Nike Air Max</h2>
+      <button onclick="changeShoeName()">Change Featured Shoe</button>
+      <button onclick="changeBannerColor()">Change Banner Color</button>
+    </section>
+
+    <section id="collection">
+      <h3>New Arrivals</h3>
+      <div id="shoeContainer">
+        <div class="shoe-card">
+          <p>Adidas Yeezy Boost</p>
+        </div>
+      </div>
+      <button onclick="addShoeCard()">Add New Shoe</button>
+      <button onclick="removeShoeCard()">Remove Last Shoe</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SneakerHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
